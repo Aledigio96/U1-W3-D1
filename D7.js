@@ -181,13 +181,14 @@ console.log(moviesYear);
 /* ESERCIZIO 10
   Scrivi una funzione per ottenere il numero di film contenuti nell'array fornito.
 */
-const numMovies = count(movies);
-console.log(numMovies);
+//let numMovies = count(movies);
+//console.log(numMovies);
 
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
-
+const moviesNames = movies.map((film) => film.Title);
+console.log(moviesNames);
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
